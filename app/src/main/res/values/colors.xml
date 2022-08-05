@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_500">#EF3C52</color>
+    <color name="secondary_500">#F79643</color>
+    <color name="neutral_200">#EDF2F7</color>
+    <color name="neutral_400">#CBD5E0</color>
+    <color name="neutral_600">#718096</color>
+    <color name="neutral_900">#1A202C</color>
+
+    <color name="danger_500">#E21F39</color>
+    <color name="info_500">#FF07C0EA</color>
+    <color name="neutral_700">#4A5568</color>
+    <color name="neutral_500">#A0AEC0</color>
+    <color name="neutral_100">#F7FAFC</color>
+    <color name="neutral_800">#2D3748</color>
+    <color name="secondary_100">#FEF2D9</color>
+    <color name="info_50">#E0FFFC</color>
+    <color name="primary_50">#FFF0EB</color>
+    <color name="neutral_300">#E2E8F0</color>
+    <color name="success_500">#3DDB6C</color>
+    <color name="warning_50">#FFFEE8</color>
+    <color name="primary_900">#720B3E</color>
+    <color name="primary_100">#FEE1D8</color>
+    <color name="primary_600">#CD2B4E</color>
+    <color name="info_600">#0596C9</color>
+    <color name="success_50">#ECFFEA</color>
+    <color name="success_600">#2CBC65</color>
+    <color name="danger_50">#FFF1EC</color>
+    <color name="danger_600">#DB4869</color>
+    <color name="secondary_50">#FFF2E5</color>
+    <color name="secondary_600">#DB4830</color>
+    <color name="chatbot_color">#f70202</color>
+    <color name="demo_light_transparent">#16000000</color>
+    <color name="warning_200">#FDFBB0</color>
+    <color name="info_100">#CCFDF8</color>
+    <color name="blur_menu">#CDFFFFFF</color>
+    <color name="blur_popup">#80FFFFFF</color>
+</resources>

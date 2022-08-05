@@ -1,0 +1,76 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="colorPrimary">@color/primary_500</item>
+        <item name="colorPrimaryDark">@color/primary_500</item>
+        <item name="colorAccent">@color/secondary_500</item>
+    </style>
+
+    <style name="HintEditText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/neutral_600</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textSize">12sp</item>
+        <!-- your custom attributes -->
+    </style>
+
+    <style name="PriceMain" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/neutral_900</item>
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="PriceBefore" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/neutral_500</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="PlaceholderEditText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/neutral_400</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textSize">18sp</item>
+        <!-- your custom attributes -->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.ActionBar" parent="Theme.MaterialComponents.Light">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="colorPrimary">@color/primary_500</item>
+        <item name="colorPrimaryDark">@color/primary_500</item>
+        <item name="colorAccent">@color/secondary_500</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="textFillColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="navTextActive">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/primary_500</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="navTextInactive">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#BDBDBD</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+</resources>
