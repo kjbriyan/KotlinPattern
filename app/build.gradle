@@ -7,51 +7,30 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.apps"
+        applicationId "com.apps.example"
         minSdk 21
         targetSdk 32
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        Properties properties = new Properties()
-        if (rootProject.file("local.properties").exists()) {
-            properties.load(rootProject.file("local.properties").newDataInputStream())
-        }
     }
-    flavorDimensions "applicationIdSuffix"
-    productFlavors {
-        String Name = "Apps"
-        dev {
-            versionName '1.0'
-            versionCode 1
-            resValue 'string', 'app_name', '"Apps (Debug)"'
-//            buildConfigField 'String', 'baseUrl', '"http://172.21.59.50/e-meter-backend/public/"'
-            buildConfigField 'String', 'baseUrl', '"http://172.31.98.39/e-meter-backend/public/"'
-            applicationIdSuffix ".dev"
-        }
-        staging {
-            versionName '1.0'
-            versionCode 1
-            resValue 'string', 'app_name', '"Apps Stag"'
-            buildConfigField 'String', 'baseUrl', '"-"'
-            applicationIdSuffix ".staging"
-        }
-        prod {
-            versionName '1.0'
-            versionCode 1
-            resValue 'string', 'app_name', '"Apps"'
-            buildConfigField 'String', 'baseUrl', '"-"'
 
-        }
-    }
     buildTypes {
         release {
-            productFlavors.dev
-            productFlavors.staging
-            productFlavors.prod
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+            resValue 'string', 'app_name', '"-"'
+            buildConfigField 'String', 'baseUrl', '"-"'
+            buildConfigField 'String', 'apiKey', '"-"'
+        }
+
+        debug {
+            resValue 'string', 'app_name', '"-"'
+            buildConfigField 'String', 'baseUrl', '"-"'
+            buildConfigField 'String', 'apiKey', '"-"'
+            applicationIdSuffix ".dev"
         }
     }
     compileOptions {
